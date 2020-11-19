@@ -1,0 +1,56 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="index.css">
+<title>jorge</title>
+<script>
+function comprobarClave(){
+clave1 = document.f1.clave1.value
+clave2 = document.f1.clave2.value
+
+if (clave1 == "luna" && clave2 == "choy"){
+alert("muy bien...\n bienvenido.");
+var href ="menu.html";
+window.location=href;
+    }
+
+    else{
+    alert("contraseña o correo incorrectos...\n intente nuevamente.");
+    var href = "index.html";
+    window.location=href;
+    }
+
+  }
+</script>
+</head>
+
+<body background="ciudad.jpg">
+
+<center>
+
+</center>
+</center>
+
+<article align="center" id="grt">
+    <h1><font color="white"> Ingrese sus datos correctamente</h1>
+<br>
+Escriba su correo y su contraseña 
+</article>
+</section>
+</nav>
+
+<br>
+<form align="center" action="" name="f1" style="text-align">
+CORREO (luna):<br> <input type="password" name ="clave1" size="20">
+<br>
+PON TU CONTRASEÑA (choy)<br>
+<input type="password" name ="clave2" size="20">
+<br>
+<input type="button" value=" ingresar "  onclick="comprobarClave()  " >
+
+</form>
+</article>
+</section>
+</center>    
+
+ </body>
+ </html>
